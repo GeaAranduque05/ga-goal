@@ -1,19 +1,20 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCZdNqAN0cQAE6GaXTuxIuRUNdl21I66kg",
-  authDomain: "ag-mobile-app---tracker.firebaseapp.com",
-  projectId: "ag-mobile-app---tracker",
-  storageBucket: "ag-mobile-app---tracker.firebasestorage.app",
-  messagingSenderId: "506415308572",
-  appId: "1:506415308572:web:9b7aaca960c55a5f44a4d9"
+  apiKey: "AIzaSyBWikZpJg4tNFoIjZjbxcDQg5iDwXmOkJs",
+  authDomain: "ag-mobile-app---tracker-1a49e.firebaseapp.com",
+  projectId: "ag-mobile-app---tracker-1a49e",
+  storageBucket: "ag-mobile-app---tracker-1a49e.firebasestorage.app",
+  messagingSenderId: "366197956920",
+  appId: "1:366197956920:web:0dc1702fcf1a95f9dc21cd"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app)
+export const db = getFirestore(app);
